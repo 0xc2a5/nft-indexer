@@ -1,0 +1,6 @@
+.fallback {
+    aspect-ratio: 1;
+    background-color: #555;
+    display: grid;
+    place-content: center;
+}

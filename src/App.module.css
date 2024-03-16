@@ -1,0 +1,20 @@
+.gridItem {
+    border-radius: 4px;
+    overflow: hidden;
+
+    & .name {
+        padding: 0.2rem 0.4rem;
+    }
+
+    & .image {
+        aspect-ratio: 1;
+    }
+}
+
+.history {
+    margin: 0 0 3rem;
+
+    & a+a {
+        margin-top: 0.5rem;
+    }
+}
